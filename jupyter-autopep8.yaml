@@ -1,0 +1,15 @@
+Type: IPython Notebook Extension
+Name: Jupyter autopep8
+Description: Use autopep8 to reformat/prettify Python code cells
+Link: README.md
+Main: jupyter-autopep8.js
+Compatibility: Jupyter (4.x) 
+Parameters:
+- name: code_format_hotkey 
+  description: Hotkey to call the code prettify
+  input_type: hotkey
+  default: 'Ctrl-L'
+- name: aggressive
+  description: Enable non-whitespace changes. Higher value result in more aggressive changes.
+  input_type: number
+  default: '1'
