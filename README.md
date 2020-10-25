@@ -1,4 +1,4 @@
-# Jupyter autopep8 [PEP8 formatter for Jupyter Notebook]
+# Jupyter autopep8 
 
 How to install autopep8 (ru, en)
 
